@@ -1,5 +1,6 @@
 body{
 	background: url('../Imgs/mainBg.jpg');
+	background-size: cover;
 	height: 100%;
 	color: white;
 	width: 100%;
@@ -49,4 +50,10 @@ align-items: center;
 }
 .tags h3:hover{
 	background:rgba(0,0,0,0.1);
+}
+
+
+.char1{
+
+transform: rotateX(12);
 }

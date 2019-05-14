@@ -8,6 +8,10 @@ body{
 	text-align: center;
 	overflow-x: hidden;
 }
+img{
+width: 25%;
+height: 25%;
+}
 
 .mainProp{
 text-align:left;
@@ -27,14 +31,16 @@ color: white;
 text-decoration: none;
 }
 
-.imageHolder img{
-width: 300px;
-}
+.imageHolder div{
+margin: 1em;
+display: inline;}
 
-.imageHolder{
+
+.imageHolder div{
 display: flex;
 flex-direction:row;
-justify-content:space-between;
+justify-content: center;
+align-items: center;
 	}
 
 .bottom{
